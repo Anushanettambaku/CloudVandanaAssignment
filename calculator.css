@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calci{
+    background-color: black;
+    height: 500px;
+    width: 650px;
+}
+.result{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    border: none;
+    font-size: 25px;
+    outline: none;
+}
+.side{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    margin-left: 500px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: mediumaquamarine;
+    font-size: 20px;
+    border: none;
+    margin-top: -100px;
+}
+.value{
+    height: 100px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+.side1{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    margin-left: 500px;
+    justify-content: center;
+    cursor: pointer;
+    background-color: gray;
+    font-size: 25px;
+    border: none;
+    margin-top: -100px;
+}
+.side1:hover{
+    background-color: mediumaquamarine;
+}
+
+ 
